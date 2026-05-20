@@ -37,7 +37,7 @@ func _process(delta: float) -> void:
 		# Боковой сдвиг при повороте: виден борт сразу без долгого ожидания
 		var truck_body := target as VehicleBody3D
 		var steer := truck_body.steering if truck_body else 0.0
-		var side_offset := Vector3(-steer * look_ahead_strength, 0.0, 0.0)
+		var side_offset := Vector3(steer * look_ahead_strength, 0.0, 0.0)
 
 		var desired = target.global_position + camera_basis * (tp_offset + side_offset)
 		global_position = global_position.lerp(desired, position_speed * delta)
