@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" fill="#1a1a2e"/>
+  <!-- sky gradient -->
+  <rect width="128" height="60" fill="#e8842a" opacity="0.7"/>
+  <!-- road -->
+  <rect y="80" width="128" height="48" fill="#444"/>
+  <!-- center line -->
+  <rect x="60" y="84" width="8" height="12" fill="#fff" opacity="0.7"/>
+  <rect x="60" y="104" width="8" height="12" fill="#fff" opacity="0.7"/>
+  <!-- truck body -->
+  <rect x="30" y="55" width="60" height="28" fill="#c0392b" rx="3"/>
+  <!-- truck cab -->
+  <rect x="74" y="48" width="22" height="35" fill="#e74c3c" rx="3"/>
+  <!-- windows -->
+  <rect x="76" y="51" width="17" height="12" fill="#85c1e9" rx="2" opacity="0.9"/>
+  <!-- wheels -->
+  <circle cx="44" cy="84" r="8" fill="#222"/>
+  <circle cx="44" cy="84" r="4" fill="#555"/>
+  <circle cx="82" cy="84" r="8" fill="#222"/>
+  <circle cx="82" cy="84" r="4" fill="#555"/>
+</svg>

@@ -1,0 +1,21 @@
+# Godot 4 .gitignore
+
+# Godot-specific ignores
+.godot/
+*.translation
+
+# Import plugin metadata
+*.import
+
+# Editor-specific project settings
+/project.godot.old
+
+# Exported builds
+builds/
+export/
+*.exe
+*.x86_64
+*.app
+
+# macOS
+.DS_Store
