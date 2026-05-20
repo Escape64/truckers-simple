@@ -1,6 +1,7 @@
 [gd_scene format=3]
 
 [ext_resource type="Script" path="res://scripts/vehicles/vehicle_controller.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/camera/temp_follow_camera.gd" id="2_cam"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_body"]
 size = Vector3(2.2, 1.4, 6.0)
@@ -93,4 +94,5 @@ mesh = SubResource("CylinderMesh_wheel")
 surface_material_override/0 = SubResource("Mat_wheel")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.94, -0.34, 0, 0.34, 0.94, 0, 3, 8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 7)
+script = ExtResource("2_cam")
