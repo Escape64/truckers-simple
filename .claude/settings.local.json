@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/Users/artem/Yandex.Disk.localized/01 Projects/Personal/\")",
+      "Bash(ls -la \"/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/\")",
+      "Bash(ls -la \"/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/\")",
+      "Bash(mkdir -p '/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/tasks/Sprint 0 — Проект и движение')",
+      "Bash(mkdir -p '/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/tasks/Sprint 1 — Тестовый мир и дороги')",
+      "Bash(mkdir -p '/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/tasks/Sprint 2 — День, ночь и освещение')",
+      "Bash(mkdir -p '/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/tasks/Sprint 3 — Погода')",
+      "Bash(mkdir -p '/Users/artem/Yandex.Disk.localized/Obsidian Vault/01 Projects/Personal/Вайбкод/Игра простые дальнобойщики/tasks/Sprint 4 — Карта мира')",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(gh repo *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

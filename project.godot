@@ -3,7 +3,7 @@
 ; since the parameters that go here are not all obvious.
 ;
 ; Format:
-;   [section] ; section goes in []
+;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
 config_version=5
@@ -12,18 +12,15 @@ config_version=5
 
 config/name="Простые дальнобойщики"
 config/description="Медитативный инди-симулятор дальнобойщика"
-run/main_scene="res://scenes/test.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="res://scenes/test_drive.tscn"
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/size/resizable=true
 
 [rendering]
 
-renderer/rendering_method="forward_plus"
-renderer/rendering_method.mobile="mobile"
 environment/defaults/default_clear_color=Color(0.2, 0.2, 0.2, 1)
