@@ -1,6 +1,7 @@
 [gd_scene format=3]
 
 [ext_resource type="PackedScene" path="res://scenes/vehicles/truck_basic.tscn" id="1_truck"]
+[ext_resource type="Script" path="res://scripts/camera/camera_controller.gd" id="2_cam"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1"]
 sky_top_color = Color(0.18, 0.42, 0.78, 1)
@@ -50,3 +51,7 @@ surface_material_override/0 = SubResource("Mat_ground")
 
 [node name="Truck" parent="." instance=ExtResource("1_truck")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+script = ExtResource("2_cam")
+target = NodePath("Truck")
