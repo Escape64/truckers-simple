@@ -43,7 +43,7 @@ suspension_max_force = 6000.0
 wheel_friction_slip = 1.5
 
 [node name="WheelMesh" type="MeshInstance3D" parent="WheelFL"]
-transform = Transform3D(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("CylinderMesh_wheel")
 surface_material_override/0 = SubResource("Mat_wheel")
 
@@ -58,7 +58,7 @@ suspension_max_force = 6000.0
 wheel_friction_slip = 1.5
 
 [node name="WheelMesh" type="MeshInstance3D" parent="WheelFR"]
-transform = Transform3D(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("CylinderMesh_wheel")
 surface_material_override/0 = SubResource("Mat_wheel")
 
@@ -73,7 +73,7 @@ suspension_max_force = 6000.0
 wheel_friction_slip = 1.5
 
 [node name="WheelMesh" type="MeshInstance3D" parent="WheelRL"]
-transform = Transform3D(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("CylinderMesh_wheel")
 surface_material_override/0 = SubResource("Mat_wheel")
 
@@ -88,6 +88,6 @@ suspension_max_force = 6000.0
 wheel_friction_slip = 1.5
 
 [node name="WheelMesh" type="MeshInstance3D" parent="WheelRR"]
-transform = Transform3D(0, -1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0, 1, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0)
 mesh = SubResource("CylinderMesh_wheel")
 surface_material_override/0 = SubResource("Mat_wheel")
