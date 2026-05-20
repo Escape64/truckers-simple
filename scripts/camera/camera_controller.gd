@@ -1,6 +1,6 @@
 extends Camera3D
 
-@export var rotation_speed: float = 1.8   # как быстро камера разворачивается вслед за машиной
+@export var rotation_speed: float = 3.5   # как быстро камера разворачивается вслед за машиной
 @export var position_speed: float = 6.0   # как быстро камера догоняет позицию
 @export var tp_offset: Vector3 = Vector3(0, 2.2, 8.0)
 @export var tp_look_height: float = 0.9

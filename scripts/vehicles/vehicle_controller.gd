@@ -12,7 +12,7 @@ func _physics_process(delta: float) -> void:
 	# Руль — при высокой скорости угол уменьшается
 	var speed_t = clampf(speed_kmh / 100.0, 0.0, 1.0)
 	var current_max_steer = lerp(max_steer_angle, max_steer_angle * 0.3, speed_t)
-	var steer_input = Input.get_axis("ui_right", "ui_left")
+	var steer_input = Input.get_axis("ui_left", "ui_right")
 	steering = move_toward(steering, steer_input * current_max_steer, delta * 3.0)
 
 	# Газ и тормоз
